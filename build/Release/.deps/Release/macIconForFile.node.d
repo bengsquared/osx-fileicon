@@ -1,1 +1,0 @@
-cmd_Release/macIconForFile.node := c++ -bundle -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.10 -arch x86_64 -L./Release -stdlib=libc++  -o Release/macIconForFile.node Release/obj.target/macIconForFile/macIconForFile.o -framework AppKit -framework QuickLook
