@@ -7,7 +7,6 @@
 void RunCallback(const Nan::FunctionCallbackInfo<v8::Value>& info) {
 
 	v8::Isolate* isolate = info.GetIsolate();
-
 	v8::String::Utf8Value value(isolate, info[0]);
 	const char* path = *value;
 	NSString* filePath = [NSString stringWithUTF8String: path];

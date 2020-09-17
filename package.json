@@ -1,6 +1,6 @@
 {
   "name": "osx-fileicon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get the Finder icon for a file path",
   "main": "index.js",
   "keywords": [
@@ -18,7 +18,7 @@
   "author": "Ben Graney Green",
   "license": "MIT",
   "os": "darwin",
-  "repository": "https://github.com/angrycoding/macIconForFile",
+  "repository": "https://github.com/bengsquared/osx-fileicon",
   "dependencies": {
     "nan": "^2.14.0"
   }

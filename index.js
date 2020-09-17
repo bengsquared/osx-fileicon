@@ -3,7 +3,7 @@ var extension =
   process.platform === "darwin" &&
   require("./build/Release/getIconForFile.node");
 
-module.exports = function (path, ret) {
+module.exports = async function (path, ret) {
   var syncResult;
 
   if (typeof ret !== "function") {
